@@ -1,0 +1,16 @@
+.NavBar {
+display: flex;
+align-items: flex-end;
+justify-content: flex-end;
+padding: 2px;
+margin-right: 5px;
+background-color: grey;
+border:rgb(112, 106, 106) solid 2px;
+
+}
+
+.boton
+{
+    padding: 5px;
+    list-style: none;
+}

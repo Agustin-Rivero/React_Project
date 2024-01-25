@@ -1,17 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Body from './components/Body/Body'
+import NavBar from './components/NavBar/NavBar'
+import Cartwidget from './components/CartWidget/Cartwidget'
+import ItemListContainer from './components/ItemListContainer/ItemListContainer'
+
+
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-   
-    <h1>Entrega final</h1>
-
-
+    <NavBar/>
+    <Body/>
+    <Cartwidget/>
+    <ItemListContainer greeting={"Seleccione sus productos"}/>
 
 
 
