@@ -1,4 +1,7 @@
 import "./NavBar.css"
+import { Link ,NavLink } from "react-router-dom";
+
+
 const NavBar = () => {
 
     return (
@@ -7,11 +10,25 @@ const NavBar = () => {
             <h1>E-Commerce "Without name"</h1>
 
         <ul className="NavBar">
-            <li className="boton"><a href="#">INICIO</a></li>
-            <li className="boton"><a href="#">PRODUCTOS</a></li>
-            <li className="boton"><a href="#">OFERTAS</a></li>
-            <li className="boton"><a href="#">CONTACTO</a></li>
-            <li className="boton"><a href="#">NOSOTROS</a></li>
+            <li className="boton">
+            <NavLink to={'/'}>Inicio</NavLink>
+            </li>
+
+            <li className="boton">
+            <NavLink to={'/'} >Productos</NavLink>
+            </li>
+
+            <li className="boton">
+            <NavLink to={'/'}>Carrito</NavLink>
+            </li>
+
+            <li className="boton">
+            <NavLink to={'/'}>Nosotros</NavLink>
+            </li>
+
+            <li className="boton">
+            <Link to={'/'}>Contacto</Link>
+            </li>
         </ul>
 
 

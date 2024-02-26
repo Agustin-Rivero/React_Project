@@ -4,13 +4,26 @@ align-items: flex-end;
 justify-content: flex-end;
 padding: 2px;
 margin-right: 5px;
-background-color: grey;
-border:rgb(112, 106, 106) solid 2px;
+background-color: rgb(195, 195, 195);
+border:rgb(152, 156, 156) solid 2px;
+list-style: none;
 
 }
 
 .boton
 {
-    padding: 5px;
+    padding: 10px;
     list-style: none;
+}
+
+
+.a{
+text-decoration: none;
+color: black;
+}
+.active
+{
+    color:  red;
+    text-decoration: none;
+    font-size: 20px;
 }

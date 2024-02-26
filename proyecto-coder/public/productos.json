@@ -1,0 +1,43 @@
+[
+    { 
+    "id": 1,
+    "nombre": "Impresora Hellbot dual magna",
+    "img": "../src/assets/img/HellbotDual.png",
+    "precio": 400,
+    "stock": 5,
+    "descripcion" : "es el numero 1 en ventas en el momento"
+    },
+    {
+    "id": 2,
+    "nombre": "Impresora creality FDM ",
+    "img": "../src/assets/img/Creality.jpg",
+    "precio": 500,
+    "stock": 9,
+    "descripcion" : "Este producto esta en oferta hasta mañana aprovechalo"
+    }, 
+   { 
+    "id": 3,
+    "nombre": "Placa de video 4080 rtx",
+    "img": "../src/assets/img/rtx4080.jpg",
+    "precio": 700,
+    "stock": 4,
+    "descripcion" : "Un nuevo producto innovador"
+    },
+    {
+    "id": 4,
+    "nombre": "Impresora resina ",
+    "img": "../src/assets/img/ImpresoraResina.webp",
+    "precio": 300,
+    "stock": 7,
+    "descripcion" : "Esta impresora es la mejor opcion precio/calidad"
+    },
+    {
+    "id": 5,
+    "nombre": "Impresora Delta ",
+    "img": "../src/assets/img/Impresora delta.webp",
+    "precio": 500,
+    "stock": 6,
+    "descripcion" : "Este producto esta en oferta hasta mañana aprovechalo"
+    }
+
+]

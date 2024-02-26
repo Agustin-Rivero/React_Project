@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import ItemDetail from '../ItemDetail/ItemDetail'
+import ItemDetail from '../ItemDetail/ItemDetail';
 
 const ItemDetailContainer = ({id}) => {
 
@@ -9,10 +9,10 @@ const ItemDetailContainer = ({id}) => {
 
     const fetchData =  async ()=> {
       try {
-        const response = await fetch("../ItemListContainer/productos.json");
+        const response = await fetch("./productos.json");
         const data = await response.json()
-        const producto = data.find((p)=>p.ide == id)
-        setProducto (producto)
+        const product = data.find((p)=>p.id == id)
+        setProducto (product)
         }catch(error){
           console.log(!"error en el fetch"+error)
         }
@@ -20,12 +20,12 @@ const ItemDetailContainer = ({id}) => {
 
   fetchData()
   
-}, [])
+}, [id])
 
 
   return (
     <div>
-    <ItemDetail producto = {producto} />
+    <ItemDetail producto = {producto}/>
     </div>
   )
 }

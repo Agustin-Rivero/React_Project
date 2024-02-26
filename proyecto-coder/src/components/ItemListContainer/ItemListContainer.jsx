@@ -1,5 +1,5 @@
 import {useState,useEffect} from "react";
-import ItemList from"../ItemList/ItemList";
+import ItemList from"../ItemList/ItemList.jsx";
 const ItemListContainer = ({greeting}) => {
 
     const [productos,setProductos] = useState ([]);
